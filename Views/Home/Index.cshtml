@@ -3,6 +3,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <img src="/img/geometric-logo-vertical.svg" alt="rtfm_logo" style="max-width: 450px;">
+    <form asp-action="Search" method="get">
+        <div class="row">
+            <div class="col-md-10">
+                <input name="searchText" type="text" class="form-control">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-primary btn-block" type="submit">Cerca</button>
+            </div>
+        </div>
+        <div class="row"></div>
+    </form>
 </div>
