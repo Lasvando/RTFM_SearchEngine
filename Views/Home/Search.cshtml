@@ -1,0 +1,40 @@
+@{
+    string lastSearch = string.Empty;
+    if (ViewData["lastSearch"] != null)
+    {
+        lastSearch = ViewData["lastSearch"].ToString();
+    }
+
+    ViewData["Title"] = "Search";
+}
+<div class="container-fluid">
+    <div class="row d-flex align-items-center">
+        <div class="col-xs-1">
+            <a asp-action="Index" class="navbar-brand"><img src="/img/geometric-logo-vertical.svg" alt="rtfm-logo"
+                    style="max-width: 100px;"></a>
+        </div>
+        <div class="col-md-10" style="max-width: 800px;">
+            <form asp-action="Search" method="get">
+                <div class="row">
+                    <div class="input-group mb-3">
+                        @if (!string.IsNullOrEmpty(lastSearch))
+                        {
+                            <input type="text" name="searchText" class="form-control" value="@lastSearch"
+                                placeholder="Cosa vuoi cercare?">
+                        }
+                        else
+                        {
+                            <input type="text" name="searchText" class="form-control" placeholder="Cosa vuoi cercare?">
+                        }
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="submit">Cerca</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</div>
