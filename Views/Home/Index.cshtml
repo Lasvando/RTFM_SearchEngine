@@ -2,12 +2,12 @@
     ViewData["Title"] = "Homepage";
 }
 
-<div class="text-center">
+<div class="text-center container">
     <img src="/img/geometric-logo-vertical.svg" alt="rtfm_logo" style="max-width: 450px;">
     <form asp-action="Search" method="get">
         <div class="row">
             <div class="col-md-10">
-                <input name="searchText" type="text" class="form-control">
+                <input name="searchText" placeholder="Cosa vuoi cercare?" type="text" class="form-control">
             </div>
             <div class="col-md-2">
                 <button class="btn btn-outline-primary btn-block" type="submit">Cerca</button>

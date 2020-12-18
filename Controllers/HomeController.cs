@@ -28,6 +28,13 @@ namespace RTFM_SearchEngine.Controllers
             return View();
         }
 
+        public IActionResult Search(string searchText)
+        {
+            ViewData["lastSearch"] = searchText;
+            
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
