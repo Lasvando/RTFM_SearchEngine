@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y9i5zlqD6pj0Pp15DA7MEJ5fSuoRIxzrZuqQQmU5Uo1cmGughz2plKgVCp7mp5uljoq1+rpoKzUnwQZlD/gRVw==",
+  "dgSpecHash": "yAvuV59+ddyYPJkWjO0yrlyvxiOS+qMauLBz+GBXmwwOE1JBv+Q6x9ekDV2oTDUF2RE36PChjZnCG/B8FIDlrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Federico\\Desktop\\RTFM_SearchEngine\\RTFM_SearchEngine.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.1\\microsoft.codeanalysis.razor.5.0.1.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",

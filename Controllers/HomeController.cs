@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using RTFM_SearchEngine.Api;
 using RTFM_SearchEngine.Models;
 
 namespace RTFM_SearchEngine.Controllers
@@ -12,10 +13,12 @@ namespace RTFM_SearchEngine.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ISearchApi searchApi;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ISearchApi searchApi)
         {
             _logger = logger;
+            this.searchApi = searchApi;
         }
 
         public IActionResult Index()
@@ -28,11 +31,11 @@ namespace RTFM_SearchEngine.Controllers
             return View();
         }
 
-        public IActionResult Search(string searchText)
+        public async Task<IActionResult> SearchAsync(string searchText)
         {
             ViewData["lastSearch"] = searchText;
             
-            return View();
+            return View(await searchApi.GetSearchResultAsync(searchText));
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

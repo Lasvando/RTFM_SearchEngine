@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RTFM_SearchEngine.Api;
 
 namespace RTFM_SearchEngine
 {
@@ -24,6 +25,7 @@ namespace RTFM_SearchEngine
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddTransient<ISearchApi, GoogleSearchApi>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -355,3 +355,5 @@ C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\RTFM_SearchEngine.d
 C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\ref\RTFM_SearchEngine.dll
 C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\RTFM_SearchEngine.pdb
 C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\RTFM_SearchEngine.genruntimeconfig.cache
+C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\Newtonsoft.Json.dll
