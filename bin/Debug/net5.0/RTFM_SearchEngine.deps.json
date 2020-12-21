@@ -25,8 +25,10 @@
     ".NETCoreApp,Version=v5.0": {
       "RTFM_SearchEngine/1.0.0": {
         "dependencies": {
+          "Google.Apis.Customsearch.v1": "1.49.0.2084",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
           "Newtonsoft.Json": "12.0.3",
+          "dotenv.net": "2.1.1",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -316,6 +318,62 @@
         },
         "compile": {
           "RTFM_SearchEngine.dll": {}
+        }
+      },
+      "dotenv.net/2.1.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dotenv.net.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/dotenv.net.dll": {}
+        }
+      },
+      "Google.Apis/1.49.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.49.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.49.0.0",
+            "fileVersion": "1.49.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Customsearch.v1/1.49.0.2084": {
+        "dependencies": {
+          "Google.Apis": "1.49.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Customsearch.v1.dll": {
+            "assemblyVersion": "1.49.0.2084",
+            "fileVersion": "1.49.0.2084"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Customsearch.v1.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
@@ -2240,6 +2298,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "dotenv.net/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWP/1PbyjRCLTnfXQNKDtd1yH/zLZKlpuehq2F564XjUXvPeFLJ2YCCY7+2KLkU5bEgumFzirs6Y8gkbRm7w2Q==",
+      "path": "dotenv.net/2.1.1",
+      "hashPath": "dotenv.net.2.1.1.nupkg.sha512"
+    },
+    "Google.Apis/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fmXQQTxZFOBlnvokvdQMzq0Lt+g2QzpZ4H6U8lMMFHgAR8ZqxQnPN5yHDpoHf7a++hJHb5W3pALxauGsq+afKQ==",
+      "path": "google.apis/1.49.0",
+      "hashPath": "google.apis.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.49.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9DgGdtyzgrCfHWwc/HiDXDbykNMeKQozbEHYEUEcezRuH+YR3fvq7YGVBDmUM8g6qEL3kDk6h5EU4h0IJwue1w==",
+      "path": "google.apis.core/1.49.0",
+      "hashPath": "google.apis.core.1.49.0.nupkg.sha512"
+    },
+    "Google.Apis.Customsearch.v1/1.49.0.2084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BJQr6ru9Lbi0zV5Z0/WMjf4+Mykm1ktCbXGOX+VTbaJTFUId5NWlaMVrVQMLaOUoAG1+tu1WsDL2EdiHcyWeUQ==",
+      "path": "google.apis.customsearch.v1/1.49.0.2084",
+      "hashPath": "google.apis.customsearch.v1.1.49.0.2084.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.1": {
       "type": "package",

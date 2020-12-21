@@ -33,6 +33,9 @@ namespace RTFM_SearchEngine.Controllers
 
         public async Task<IActionResult> SearchAsync(string searchText)
         {
+            if(String.IsNullOrEmpty(searchText))
+                return View();
+                
             ViewData["lastSearch"] = searchText;
             
             return View(await searchApi.GetSearchResultAsync(searchText));

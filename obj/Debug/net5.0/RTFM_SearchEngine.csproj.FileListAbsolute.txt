@@ -357,3 +357,7 @@ C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\RTFM_SearchEngine.p
 C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\RTFM_SearchEngine.genruntimeconfig.cache
 C:\Users\Federico\Desktop\RTFM_SearchEngine\obj\Debug\net5.0\Razor\Views\Home\Search.cshtml.g.cs
 C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\Google.Apis.dll
+C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\Google.Apis.Core.dll
+C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\Google.Apis.Customsearch.v1.dll
+C:\Users\Federico\Desktop\RTFM_SearchEngine\bin\Debug\net5.0\dotenv.net.dll
