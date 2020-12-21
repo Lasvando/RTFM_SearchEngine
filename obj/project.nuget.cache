@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yAvuV59+ddyYPJkWjO0yrlyvxiOS+qMauLBz+GBXmwwOE1JBv+Q6x9ekDV2oTDUF2RE36PChjZnCG/B8FIDlrw==",
+  "dgSpecHash": "4JCsi5skOBuOyP5dumAsLXfrLKxNM1CADt0YMFgE3z/7W6vphOnd24RGaeAlqy3BoOgj0aE6PKlJKbITh20Uew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Federico\\Desktop\\RTFM_SearchEngine\\RTFM_SearchEngine.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Federico\\.nuget\\packages\\google.apis\\1.49.0\\google.apis.1.49.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\google.apis.core\\1.49.0\\google.apis.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\google.apis.customsearch.v1\\1.49.0.2084\\google.apis.customsearch.v1.1.49.0.2084.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.1\\microsoft.aspnetcore.mvc.razor.extensions.5.0.1.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.1\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.1.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.1\\microsoft.aspnetcore.razor.language.5.0.1.nupkg.sha512",
