@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RTFM_SearchEngine.Models;
+
 
 namespace RTFM_SearchEngine.Api
 {
@@ -11,6 +13,8 @@ namespace RTFM_SearchEngine.Api
     {
         public async Task<List<SearchResult>> GetSearchResultAsync(string searchText)
         {
+            string key = ApiKeyHidden.BING_API_KEY;
+
             string cleanedSearchText = searchText.Replace(" ", "%20");
             cleanedSearchText = cleanedSearchText.Replace("'", "");
             cleanedSearchText = cleanedSearchText.Replace("\"", "");
@@ -23,7 +27,7 @@ namespace RTFM_SearchEngine.Api
                 Headers =
                 {
                     { "x-bingapis-sdk", "true" },
-                    { "x-rapidapi-key", "1c2eb8ab42msh25eb17f236d532dp15b8dejsne52d0aab7277" },
+                    { "x-rapidapi-key",  key},
                     { "x-rapidapi-host", "bing-web-search1.p.rapidapi.com" },
                 },
             };
