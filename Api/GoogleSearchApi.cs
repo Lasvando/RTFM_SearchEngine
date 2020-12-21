@@ -14,6 +14,9 @@ namespace RTFM_SearchEngine.Api
     {
         public async Task<List<SearchResult>> GetSearchResultAsync(string searchText)
         {
+            //KEY IN Api/ApiKeyHidden.cs
+            //Keys are note available, pls go to Rapidapi and subscribe to obtain free Api's keys
+
             string key = ApiKeyHidden.GOOGLE_API_KEY;
 
             string cleanedSearchText = searchText.Replace(" ", "%20");
